@@ -4,6 +4,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    min-height: 400px;
+}
 
 main, footer {
     background-color: #1f2937;
@@ -12,12 +15,13 @@ main, footer {
 
 nav {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     
 }
 
 nav .logo {
-    margin-left: 175px;
+    max-width: 1000px;
+    margin-left: 275px;
     flex: .8;
     margin-top: 20px;
     margin-bottom: 75px;
@@ -30,11 +34,12 @@ nav a {
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 75px;
+    margin-right: 50px;
 }
 
 .image-box {
-    height: 125px; 
-    width: 400px;
+    height: 250px; 
+    width: 600px;
     background-color: rgb(154, 145, 154);
 }
 
@@ -45,17 +50,38 @@ nav a {
 
 .main-content {
     display: flex;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    font-size: 48px;
+}
+
+.main-content p {
+    font-size:  18px;
 }
 
 .left-content, .right-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    border: 2px solid red;
     flex: 1;
-    height: 150px;
+    height: 250px;
 }
 
-.left-content {
 
+.left-inner-wrapper {
+    margin-left: 120px;
+    width: 450px;
+}
+
+.main-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    width: 85px;
+    height: 25px;
+    color: white;
+    margin-top: 15px;
 }
