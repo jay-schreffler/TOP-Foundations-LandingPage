@@ -15,16 +15,15 @@ main, footer {
 
 nav {
     display: flex;
-    gap: 10px;
-    
+    gap: 20px; 
 }
 
 nav .logo {
-    max-width: 1000px;
-    margin-left: 275px;
-    flex: .8;
+    margin-left: 280px;
+    flex: 1;
     margin-top: 20px;
     margin-bottom: 75px;
+
 }
 
 
@@ -34,7 +33,10 @@ nav a {
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 75px;
-    margin-right: 50px;
+}
+
+nav a:nth-last-child(1) {
+    margin-right: 525px;
 }
 
 .image-box {
@@ -50,8 +52,10 @@ nav a {
 
 .main-content {
     display: flex;
+    justify-content: flex-start;
     width: 1600px;
     margin: 0 auto;
+    gap: 75px;
 }
 
 .main-content h1 {
@@ -66,15 +70,16 @@ nav a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex: 1;
     height: 250px;
 }
 
 
 .left-inner-wrapper {
     margin-left: 120px;
-    width: 450px;
+    width: 420px;
 }
+
+
 
 .main-btn {
     background-color: #3882f6;
