@@ -15,12 +15,11 @@ main, footer {
 
 nav {
     display: flex;
-    gap: 20px; 
 }
 
 nav .logo {
-    margin-left: 280px;
     flex: 1;
+    margin-left: 410px;
     margin-top: 20px;
     margin-bottom: 75px;
 
@@ -35,9 +34,17 @@ nav a {
     margin-bottom: 75px;
 }
 
-nav a:nth-last-child(1) {
-    margin-right: 525px;
+.links {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    gap: 20px;
+    margin-right: 160px;
 }
+
+/* nav a:nth-last-child(1) {
+    margin-right: 525px;
+} */
 
 .image-box {
     height: 250px; 
@@ -52,9 +59,7 @@ nav a:nth-last-child(1) {
 
 .main-content {
     display: flex;
-    justify-content: flex-start;
-    width: 1600px;
-    margin: 0 auto;
+    justify-content: center;
     gap: 75px;
 }
 
@@ -69,13 +74,12 @@ nav a:nth-last-child(1) {
 .left-content, .right-content {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     height: 250px;
 }
 
 
 .left-inner-wrapper {
-    margin-left: 120px;
+   
     width: 420px;
 }
 
