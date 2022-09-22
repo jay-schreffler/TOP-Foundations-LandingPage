@@ -4,7 +4,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-main {
+main, .quote, .info {
     min-height: 500px;
 }
 
@@ -79,7 +79,6 @@ nav a {
 
 
 .left-inner-wrapper {
-   
     width: 420px;
 }
 
@@ -95,10 +94,6 @@ nav a {
     margin-top: 15px;
 }
 
-.info {
-    border: 2px solid red;
-    min-height: 400px;
-}
 
 .info h1 {
     text-align: center;
@@ -131,5 +126,56 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    width: 830px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style:italic;
+    text-align: left;
+}
+
+.quote h3 {
+    margin-left: 550px;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signUp-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882f6;
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.action-btn {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    width: 85px;
+    height: 25px;
+    color: #3882f6;
+    margin-top: 15px;
+}
+
